@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Castálio Podcast</title><link>http://castalio.info/</link><description></description><atom:link href="http://castalio.info/feeds/elyezer-rezende.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 22 Jan 2017 00:00:00 -0500</lastBuildDate><item><title>Episódio 84: Tech News e Book Reviews por Hack and Cast</title><link>http://castalio.info/episodio-84-tech-news-e-book-reviews-por-hack-and-cast.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Isaac Asimov" src="http://castalio.info/images/books-84.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje temos como convidados Magnum, Jorge e Ricardo do &lt;a class="reference external" href="http://hackncast.org/"&gt;Hack and Cast&lt;/a&gt;
+que fizeram os reviews dos livros &lt;strong&gt;Eu Sou a Lenda&lt;/strong&gt; de Richard Matheson, &lt;strong&gt;A Última Pergunta&lt;/strong&gt; e
+&lt;strong&gt;A Última resposta&lt;/strong&gt; de Issac Asimov.&lt;/p&gt;
+&lt;p&gt;A dica de Python da semana é sobre o framework &lt;a class="reference external" href="http://kivy.org"&gt;Kivy&lt;/a&gt;, e a sugestão foi do nosso
+ouvinte &lt;strong&gt;Hell Barba&lt;/strong&gt;. O &lt;strong&gt;Kivy&lt;/strong&gt; é um framework para desenvolvimento de interfaces
+orientadas a &lt;strong&gt;multi-touch&lt;/strong&gt; especialmente voltado a tablets e dispositivos móveis, mas
+que também serve para desenvolver &lt;strong&gt;Desktop GUI&lt;/strong&gt; para aplicativos Python de maneira bastante
+similar ao &lt;strong&gt;Tkinter&lt;/strong&gt; que citamos no epiśodio 82.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 22 Jan 2017 00:00:00 -0500</pubDate><guid>tag:castalio.info,2017-01-22:episodio-84-tech-news-e-book-reviews-por-hack-and-cast.html</guid><category>book review</category><category>novidades da semana</category><category>eu sou a lenda</category><category>a última pergunta</category><category>a última resposta</category><category>isaac asimov</category><category>richard matheson</category><category>kivy</category><category>restructured text</category><category>markdown</category><category>sanic</category><category>flask</category><category>shellcheck</category><category>shell cript</category><category>bash</category><category>kalliope</category><category>mention bot</category><category>getcinnamon</category><category>toml</category><category>yaml</category><category>ini</category><category>config</category></item><item><title>Episódio 83: Tarek Ziadé - Mozilla</title><link>http://castalio.info/episodio-83-tarek-ziade-mozilla.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Tarek Ziadé - Mozilla" src="http://castalio.info/images/tarekziade.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Nosso convidado de hoje é um desenvolvedor Python que trabalha na Mozilla no
+time de Serviços, escreveu vários livros sobre Python em inglês e francês, pai
+de 3, é um corredor ávido, usuário Vim e trabalha de Dijon, na França.  É com
+grande prazer que trazemos mais uma entrevista em inglês e conversamos com o
+Tarek Ziadé.&lt;/p&gt;
+&lt;p&gt;Já vai aquecendo o seu inglês porque de agora em diante o post será escrito
+nesta lingua. Como sempre, qualquer feedback que você tenha sobre esse formato
+de post é muito bem vindo.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 15 Jan 2017 00:00:00 -0500</pubDate><guid>tag:castalio.info,2017-01-15:episodio-83-tarek-ziade-mozilla.html</guid><category>tarek ziade</category><category>python</category><category>mozilla</category><category>english</category></item><item><title>Episódio 82: Book Review: 36 Books That Changed the World e The Martian Chronicles</title><link>http://castalio.info/episodio-82-book-review-36-books-that-changed-the-world-e-the-martian-chronicles.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="36 books that changed the world" src="http://castalio.info/images/books-82.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje temos um convidado, o Rafael Rosa Fu que aceitou nosso
+convite e fez 2 book reviews, um falando sobre o livro &amp;quot;36 Books that Changed the World&amp;quot;
+e outro sobre o &amp;quot;The Martian Chronicles&amp;quot;.&lt;/p&gt;
+&lt;p&gt;A dica de Python da semana é sobre testes, mais especificamente sobre o uso
+do &lt;tt class="docutils literal"&gt;subTest&lt;/tt&gt; que é um context manager que foi adicionado ao módulo unittest do Python3.4
+e que já estava disponível no 2.7. Usando o unittest e o &lt;tt class="docutils literal"&gt;subTest&lt;/tt&gt; possibilita que
+em um mesmo test case várias iterações de um loop sejam testadas tendo seu
+resultado acumulado ao invés de sair na primeira falha. O Elyézer preparou o seguinte
+exemplo:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+def par(n):
+    &amp;quot;&amp;quot;&amp;quot;Verifica se o número é par&amp;quot;&amp;quot;&amp;quot;
+    return n % 2 == 0
+
+def test_todos_par(self):
+    &amp;quot;&amp;quot;&amp;quot;Testa se todos os números da lista são pares&amp;quot;&amp;quot;&amp;quot;
+    for n in (0, 2, 3, -2, 4):
+        with self.subTest(n=n):
+            self.assertTrue(par(n))
+&lt;/pre&gt;
+&lt;p&gt;Sem o uso do &lt;tt class="docutils literal"&gt;subTest&lt;/tt&gt; o teste acima iria parar de ser executado na primeira falha, ou seja,
+quando o &lt;tt class="docutils literal"&gt;n&lt;/tt&gt; recebesse o valor &lt;tt class="docutils literal"&gt;3&lt;/tt&gt;, mas usando o &lt;tt class="docutils literal"&gt;subTest&lt;/tt&gt; garantimos que todos os
+números da lista serão testados e o caso de falha será informado apenas ao final quando
+sair do contexto do &lt;tt class="docutils literal"&gt;subTest&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;Depois dessa pequena dica, falamos sobre as novidades da semana:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 08 Jan 2017 00:00:00 -0500</pubDate><guid>tag:castalio.info,2017-01-08:episodio-82-book-review-36-books-that-changed-the-world-e-the-martian-chronicles.html</guid><category>book review</category><category>novidades da semana</category><category>36 books that changed the world</category><category>the martian chronicles</category><category>python 3.6</category><category>typing</category><category>kite</category><category>grumpy</category><category>golang</category><category>mocket</category><category>coloredlogs</category><category>tkinter</category><category>tcl</category></item><item><title>Episódio 81: Book Review: As Vinhas da Ira e Novidades da Semana</title><link>http://castalio.info/episodio-81-book-review-as-vinhas-da-ira-e-novidades-da-semana.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="As Vinhas da Ira por John Steinbeck" src="http://castalio.info/images/as-vinhas-da-ira.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje o Og nos traz um book review do livro As Vinhas da Ira por
+John Steinbeck. Também trazemos algumas notícias, pacotes e projetos que valem
+a pena comentar e compartilhar.&lt;/p&gt;
+&lt;p&gt;Antes de começar, gostaríamos de desejar um feliz e próspero ano novo para
+todos os nossos amigos e ouvintes. Obrigado por todos os comentários e
+indicações, o Castálio é feito por todos nós e por isso a sua participação é
+muito importante para o podcast. Que em 2017 agente consiga ter ainda mais
+entrevistas, book reviews e novidades da semana inspiradoras.&lt;/p&gt;
+&lt;p&gt;Começamos hoje com uma pequena dica de Python, ou melhor, pip. Você pode criar
+um cache local de pacotes utilizando a opção &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--download&lt;/span&gt;&lt;/tt&gt; do pip, com isso
+você pode ter seu backup de pacotes. Para salvar os pacotes em um diretório
+especifico você pode executar:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install --download=/caminho/do/diretorio -r requirements.txt
+&lt;/pre&gt;
+&lt;p&gt;Depois quando quiser usar o seu cache local, basta rodar:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install --no-index --find-links=/caminho/do/diretorio -r requirements.txt
+&lt;/pre&gt;
+&lt;p&gt;Com isso o pip não irá fazer nenhum download e usará os pacotes salvos no
+diretório.&lt;/p&gt;
+&lt;p&gt;Depois dessa pequena dica, falamos sobre as novidades da semana:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate><guid>tag:castalio.info,2017-01-01:episodio-81-book-review-as-vinhas-da-ira-e-novidades-da-semana.html</guid><category>book review</category><category>novidades da semana</category><category>john steinbeck</category><category>maya</category><category>surprise</category><category>pytone</category><category>q</category></item><item><title>Episódio 80: Kenneth Reitz - Python Requests</title><link>http://castalio.info/episodio-80-kenneth-reitz-python-requests.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Kenneth Reitz - Python Requests" src="http://castalio.info/images/kennethreitz.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Nosso convidado de hoje é o criador do Python Requests: HTTP para Humanos,
+atualmente trabalha no Heroku com um título bem interessante, PythonOverLord,
+possui uma coleção incrível de fotos no Instagram, e possui seu próprio Import
+This podcast. Ele também escreveu o &amp;quot;Hitchhiker's Guide to Python&amp;quot;, um livro de
+boas práticas em Python que foi, coincidentemente publicado pela O'Reilly em
+Setembro e todo o lucro das vendas está sendo doado para a fundação Django
+Girls. Alem disso, possui muito projetos interessantes em sua página no Github.
+É com grande prazer que trazemos uma entrevista, em inglês, com o Kenneth
+Reitz.&lt;/p&gt;
+&lt;p&gt;Vamos fazer um post um pouco diferente hoje, fizemos a apresentação em
+português e, de agora em diante, o post será todo em inglês. Por favor,
+deixe-nos comentários sobre o que achou desse formato de post.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sat, 24 Dec 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-12-24:episodio-80-kenneth-reitz-python-requests.html</guid><category>kenneth reitz</category><category>python</category><category>requests</category><category>heroku</category><category>english</category></item><item><title>Episódio 79: Paula Grangeiro - Pyladies</title><link>http://castalio.info/episodio-79-paula-grangeiro-pyladies.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Paula Grangeiro - Pyladies" src="http://castalio.info/images/paula-grangeiro.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Nossa convidada de hoje atualmente trabalha como programadora na &lt;strong&gt;Stone Pagamentos&lt;/strong&gt;, é voluntária das &lt;a class="reference external" href="http://brasil.pyladies.com/"&gt;PyLadies&lt;/a&gt; Brasil, &lt;a class="reference external" href="https://djangogirls.org/"&gt;Django Girls&lt;/a&gt; e &lt;a class="reference external" href="http://railsgirls.com/"&gt;Rails Girls&lt;/a&gt;. Além disso tudo, ela também palestrou nos eventos &lt;a class="reference external" href="http://caipyra.python.org.br/"&gt;CaiPyRa&lt;/a&gt;, &lt;a class="reference external" href="http://pythonbrasil.org.br"&gt;Python Brasil&lt;/a&gt;, ganhou o &lt;strong&gt;Prêmio Dorneles Tremea&lt;/strong&gt;, é ilustradora, gosta de gatos, e as redes sociais indicam que ela é fã da banda &lt;a class="reference external" href="http://www.last.fm/pt/music/Korn"&gt;Korn&lt;/a&gt;. Ufa!!! Ladies and gentlemen, é com um grande prazer que eu apresento nossa convidada &lt;strong&gt;Paula Grangeiro&lt;/strong&gt;!.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 18 Dec 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-12-18:episodio-79-paula-grangeiro-pyladies.html</guid><category>paula grangeiro</category><category>pyladies</category></item><item><title>Episódio 78: Gabriel Engel - Rocket.Chat</title><link>http://castalio.info/episodio-78-gabriel-engel-rocketchat.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Gabriel Engel - Rocket.Chat" src="http://castalio.info/images/gabrielengel.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Hoje conversamos com o Gabriel Engel que é o fundador da empresa &lt;a class="reference external" href="https://rocket.chat/"&gt;Rocket.Chat&lt;/a&gt;,
+co-fundador da Konecty, ex-Senior Product Manager at Vodafone Group PLC, é de
+Porto Alegre (mas já morou em Londres).&lt;/p&gt;
+&lt;p&gt;Em nossa conversa, o Gabriel nos conta sobre o Rocket.Chat, que inicialmente
+começou como um fork Open Source do &lt;a class="reference external" href="https://slack.com/"&gt;Slack&lt;/a&gt;, mas que hoje em dia provê muito
+mais recursos, já que várias pessoas estão contribuindo com o projeto. Isso
+tudo fez com que o Rocket.Chat se tornasse uma plataforma de comunicação onde é
+possível se comunicar via texto, áudio e vídeo.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 11 Dec 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-12-11:episodio-78-gabriel-engel-rocketchat.html</guid><category>gabriel engel</category><category>rocket.chat</category></item><item><title>Episódio 77: Book Review: Practical Vim e Novidades da Semana</title><link>http://castalio.info/episodio-77-book-review-practical-vim-e-novidades-da-semana.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Practical Vim - Edit Text at the Speed of Thought" src="http://castalio.info/images/practical-vim.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje vamos fazer mais um book review, porém desta vez, vamos
+falar sobre um livro técnico. Também trazemos as novidades da semana e a
+polêmica em torno do Python 3.&lt;/p&gt;
+&lt;p&gt;Nas próximas semanas queremos trazer para vocês entrevistas com a &lt;strong&gt;Paula Granjeiro&lt;/strong&gt;,
+&lt;strong&gt;Gabriel Engel&lt;/strong&gt; da &lt;strong&gt;Rocket.Chat&lt;/strong&gt; e &lt;strong&gt;Kenneth Reitz&lt;/strong&gt;, criador do &lt;strong&gt;Python Requests&lt;/strong&gt;.
+Aguardem!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 04 Dec 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-12-04:episodio-77-book-review-practical-vim-e-novidades-da-semana.html</guid><category>book review</category><category>python</category><category>novidades da semana</category><category></category></item><item><title>Episódio 76: Book Review e Python Packages</title><link>http://castalio.info/episodio-76-book-review-e-python-packages.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="H.P. Lovecraft's Book of the Supernatural" src="http://castalio.info/images/h-p-lovecraft-s-book-of-the-supernatural.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Hoje trazemos um episódio num formato diferente: vamos fazer um book review e
+também falar sobre as novidades da semana no mundo Python. Aproveitamos para
+agradecer a todos que participaram da nossa &lt;a class="reference external" href="https://twitter.com/castaliopod/status/799596710511181828"&gt;enquete no Twitter&lt;/a&gt; apoiando a
+idéia de trazer o book review.&lt;/p&gt;
+&lt;p&gt;Para dar o pontapé inicial deste novo segmento, &lt;strong&gt;Book Review&lt;/strong&gt;, o &lt;strong&gt;Castálio
+Podcast&lt;/strong&gt; recomenda o livro &lt;a class="reference external" href="https://www.goodreads.com/book/show/2878423-h-p-lovecraft-s-book-of-the-supernatural"&gt;H.P. Lovecraft's Book of the Supernatural&lt;/a&gt;
+editado por &lt;strong&gt;Stephen Jones&lt;/strong&gt;. Mas antes de falar sobre o livro, eu preciso
+confessar algo: eu, &lt;strong&gt;Og Maciel&lt;/strong&gt;, sempre evitei qualquer livro que falasse
+sobre terror ou qualquer tema macabro! Pronto, falei! Acho que na minha
+infância eu fiquei meio que &amp;quot;overloaded&amp;quot; depois de assistir tudo quanto é filme
+de terror que saiu nas décadas de 1980 e 1990! Sim, eu lí algumas histórias do
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe"&gt;Edgar Allan Poe&lt;/a&gt; e &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Stephen_King"&gt;Stephen King&lt;/a&gt; quando era garoto, mas depois eu
+simplesmente não senti mais vontade de assistir ou ler nada do gênero.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 27 Nov 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-11-27:episodio-76-book-review-e-python-packages.html</guid><category>book review</category><category>python</category><category></category></item><item><title>Episódio 75: Python Brasil 12 - Parte 3</title><link>http://castalio.info/episodio-75-python-brasil-12-parte-3.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Python Brasil" src="http://castalio.info/images/pybr-logo.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje daremos continuidade a série &lt;a class="reference external" href="http://2016.pythonbrasil.org.br/"&gt;Python Brasil 12&lt;/a&gt;. Se você ainda não ouviu as primeiras partes &lt;a class="reference external" href="/tag/pybr12.html"&gt;escute agora&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Neste episódio o Bruno e o Elyézer falaram a respeito da experiência pessoal deles no evento, quais assuntos estavam sendo abordados na maior parte das palestras, como percebem as mudanças na comunidade durantes os anos que frequentam a PythonBrasil e algumas curiosidades sobre a Oktoberfest e a relação entre Python e Cervejas!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 20 Nov 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-11-20:episodio-75-python-brasil-12-parte-3.html</guid><category>python brasil</category><category>python</category><category>oktoberfest</category><category>florianopolis</category><category>floripa</category><category>pybr12</category></item><item><title>Episódio 74: Python Brasil 12 - Parte 2</title><link>http://castalio.info/episodio-74-python-brasil-12-parte-2.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Python Brasil" src="http://castalio.info/images/pybr-logo.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje daremos continuidade a série de entrevistas rápidas feitas
+durante a &lt;a class="reference external" href="http://2016.pythonbrasil.org.br/"&gt;Python Brasil 12&lt;/a&gt;. Se você ainda não ouviu a primeira &lt;a class="reference external" href="/episodio-73-python-brasil-12-parte-1.html"&gt;escute agora&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;As entrevistas foram realizadas pelo Elyézer Rezende e Bruno Rocha, e nesta segunda
+parte os entrevistados são os membros da &lt;a class="reference external" href="https://www.catarse.me/serenata"&gt;Operação Serenata de Amor&lt;/a&gt; (Felipe Linhares, andré Pinho e Eduardo Cuducos) e também o &lt;a class="reference external" href="https://www.youtube.com/user/Turicas"&gt;Turicas&lt;/a&gt; (Álvaro Justen) que nos contou sobre a biblioteca &lt;a class="reference external" href="https://github.com/turicas/rows"&gt;rows&lt;/a&gt; e aproveitou para falar sobre um outro assunto bastante interessante
+que ele também está envolvido no momento.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate><guid>tag:castalio.info,2016-11-12:episodio-74-python-brasil-12-parte-2.html</guid><category>python brasil</category><category>python</category><category>turicas</category><category>serenata de amor</category><category>pybr12</category></item><item><title>Episódio 73: Python Brasil 12 - Parte 1</title><link>http://castalio.info/episodio-73-python-brasil-12-parte-1.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Python Brasil" src="http://castalio.info/images/pybr-logo.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje trazemos um episódio diferente pois fizemos algumas
+entrevistas ao vivo durante a &lt;a class="reference external" href="http://2016.pythonbrasil.org.br/"&gt;Python Brasil 12&lt;/a&gt;. Foram um total de 4
+entrevistas que você irá conferir neste espisódio e no próximo, duas por
+episódio.&lt;/p&gt;
+&lt;p&gt;As entrevistas foram realizadas pelo Elyézer Rezende e Bruno Rocha, isso mesmo,
+agora o Bruno Rocha está participando conosco no Castálio! O Og infelizmente
+não estava presente nas entrevistas ao vivo, mas está presente no episódio.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 06 Nov 2016 00:00:00 -0400</pubDate><guid>tag:castalio.info,2016-11-06:episodio-73-python-brasil-12-parte-1.html</guid><category>python brasil</category><category>python</category><category>mário sergio</category><category>naomi ceder</category><category>pybr12</category><category>english</category></item><item><title>Episódio 72: Eduardo Matos - PouchDB e Quadrinhos</title><link>http://castalio.info/episodio-72-eduardo-matos-pouchdb-e-quadrinhos.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Eduardo Matos - PouchDB e Quadrinhos" src="http://castalio.info/images/eduardomatos.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Como sempre agradecemos a todos que passaram para nos deixar um recado e
+reforcamos o convite para que você deixe um comentário falando sobre o que está
+achando dos episódios e caso tenha alguma indicação para um episódio futuro
+estamos a todo ouvidos.&lt;/p&gt;
+&lt;p&gt;Sem mais delongas, hoje conversamos com o Eduardo Matos e agradecemos o Fábio
+Souza pela indicação. O Eduardo trabalha na BankFacil e nos conta um pouco como
+funciona o processo de code review e também comenta sobre o benefício de se ter
+um template para os Pull Requests. Durante a conversa sobre o template de Pull
+Request é comentado sobre o &lt;a class="reference external" href="https://github.com/facebook/mention-bot"&gt;mention-bot&lt;/a&gt;, um bot que menciona nos Pull
+Requests uma pessoa que é um potencial reviewer.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 26 Jun 2016 00:00:00 -0400</pubDate><guid>tag:castalio.info,2016-06-26:episodio-72-eduardo-matos-pouchdb-e-quadrinhos.html</guid><category>eduardo matos</category><category>offline first</category><category>pouchdb</category><category>quadrinhos</category></item><item><title>Episódio 71: Bruno Rocha - Quokka CMS</title><link>http://castalio.info/episodio-71-bruno-rocha-quokka-cms.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Bruno Rocha - Quokka CMS" src="http://castalio.info/images/brunorocha.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Hoje voltamos novamente com o Bruno Rocha, para continuarmos nosso bate papo,
+que como já esperávamos, foi muito bacana. Antes gostaríamos de agradecer a
+todos os comentários sobre o episódio anterior, muito obrigado a todos que
+dedicaram um tempinho para deixar uma mensagem.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Fri, 03 Jun 2016 00:00:00 -0400</pubDate><guid>tag:castalio.info,2016-06-03:episodio-71-bruno-rocha-quokka-cms.html</guid><category>bruno rocha</category><category>flask</category><category>quokka</category><category>cms</category><category>quokkacms</category></item><item><title>Episódio 70: Bruno Rocha - Flask e Veganismo</title><link>http://castalio.info/episodio-70-bruno-rocha-flask-e-veganismo.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Bruno Rocha - Flask e Veganismo" src="http://castalio.info/images/brunorocha.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Ficamos um bom tempo sem novos episódios, mas finalmente estamos de volta e
+esperamos que consigamos conciliar nossa agenda com mais frequência e agente
+consiga trazer episódios com a frequência de sempre.&lt;/p&gt;
+&lt;p&gt;Sem mais delongas, no episódio de hoje trazemos nossa entrevista com o Bruno
+Rocha. Durante nosso bate-papo, ele nos conta o que é o &lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;, um
+micro-framework em Python, e algumas das características que faz com ele curta
+bastante o framework. Ele também comenta sobre como o Flask se posiciona em
+relação a outros frameworks para web em Python, como o Django por exemplo.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sat, 21 May 2016 00:00:00 -0400</pubDate><guid>tag:castalio.info,2016-05-21:episodio-70-bruno-rocha-flask-e-veganismo.html</guid><category>bruno rocha</category><category>flask</category><category>veganismo</category><category>django</category><category>web2py</category></item><item><title>Episódio 69: Renzo Nucciteli - Python Brasil</title><link>http://castalio.info/episodio-69-renzo-nucciteli-python-brasil.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Renzo Nucciteli - Python Brasil" src="http://castalio.info/images/renzonucciteli.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;No episódio de hoje trazemos nossa entrevista com o Renzo Nucciteli, um dos organizadores responsáveis pelo evento &lt;a class="reference external" href="https://pythonbrasil.github.io/pythonbrasil11-site/"&gt;Python Brasil&lt;/a&gt; este ano. Durante nosso bate-papo ele nos conta como que tudo começou e sobre as dificuldades e desafios que existem em planejar um evento de tecnologia deste porte no Brasil. Baseado na grade de palestras e os nomes dos palestrantes agendados a comparecer, eu recomendo fortemente que você prestigie a Python Brasil! Tenho certeza que será um marco na sua carreira profissional!!!&lt;/p&gt;
+&lt;p&gt;Também falamos sobre o projeto &lt;a class="reference external" href="https://github.com/pythonprobr/pythonbirds"&gt;Python Birds&lt;/a&gt;, um curso de Python que promete te ensinar como programar de forma eficiente e com técnicas que não se aprende em qualquer escola! É claro que também não podíamos ficar sem falar sobre o &lt;strong&gt;Top 5&lt;/strong&gt; do Renzo, que tem um pouco de tudo!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 08 Nov 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-11-08:episodio-69-renzo-nucciteli-python-brasil.html</guid><category>aurelio jargas</category><category>funções zz</category><category>moneylog</category><category>miguxeitor</category></item><item><title>Episódio 68: Aurelio Jargas - Projetos</title><link>http://castalio.info/episodio-68-aurelio-jargas-projetos.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Aurelio Jargas - Conectiva e Livros" src="http://castalio.info/images/aureliojargas.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Voltamos com a continuação da nossa conversa com o Aurelio Jargas. Mas antes
+gostariamos de agradecer aos comentários e tweets sobre episódio anterior, eles
+nos motivam a continuar e sempre trazer ainda mais entrevistas e episódios
+interessantes.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 13 Sep 2015 00:00:00 -0400</pubDate><guid>tag:castalio.info,2015-09-13:episodio-68-aurelio-jargas-projetos.html</guid><category>aurelio jargas</category><category>funções zz</category><category>moneylog</category><category>miguxeitor</category></item><item><title>Episódio 67: Aurelio Jargas - Conectiva e Livros</title><link>http://castalio.info/episodio-67-aurelio-jargas-conectiva-e-livros.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Aurelio Jargas - Conectiva e Livros" src="http://castalio.info/images/aureliojargas.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Após um bom tempo sem episódio, hoje estamos de volta com uma ótima surpresa.
+Conseguimos entrevistar o Aurelio Jargas e nossa conversa foi muito
+interessante. Ele nos contou algumas fases interessantes que passou durante a
+sua carreira profissional.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sat, 05 Sep 2015 00:00:00 -0400</pubDate><guid>tag:castalio.info,2015-09-05:episodio-67-aurelio-jargas-conectiva-e-livros.html</guid><category>aurelio jargas</category><category>conectiva</category><category>fotógrafo de surfe</category><category>expressões regulares</category><category>shell script</category></item><item><title>Episódio 66: Thiago Perrotta - Leitura e Tecnologia</title><link>http://castalio.info/episodio-66-thiago-perrotta-leitura-e-tecnologia.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Thiago Perrotta - Leitura e Tecnologia" src="http://castalio.info/images/thiagoperrotta.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do Castálio Podcast!&lt;/p&gt;
+&lt;p&gt;Nós sabemos que ficamos um tempo sem publicar um episódio, mas como você já deve saber, não conseguimos devido ao trabalho e, também, por alguns desencontros de agenda com as pessoas que gostaríamos de conversar. Felizmente hoje vamos quebrar este gelo!&lt;/p&gt;
+&lt;p&gt;Mas antes, durante este período, foi publicado dois artigos com sugestões e comentários sobre livros. Se você perdeu, dá uma olhada nos artigos &lt;a class="reference external" href="http://castalio.info/livros-marco-de-2015.html"&gt;Livros - Março de 2015&lt;/a&gt; e &lt;a class="reference external" href="http://castalio.info/livros-abril-de-2015.html"&gt;Livros - Abril de 2015&lt;/a&gt; e anota os livros que deseja ler.&lt;/p&gt;
+&lt;p&gt;Não deixe a sua lista de livros para ler de lado, pois, no episódio de hoje, conversamos com o Thiago Perrotta. Ele e o Og nos contam como iniciaram e se apaixonaram pela leitura. O bate-papo foi bastante interessante e, com várias dicas de como adquirir o hábito de leitura e ler muitos livros. Se você é como o Elyézer, que está buscando novamente ler todos os dias, você irá curtir a conversa e as dicas.&lt;/p&gt;
+&lt;p&gt;Além das dicas, falamos sobre o &lt;a class="reference external" href="https://www.goodreads.com/"&gt;GoodReads&lt;/a&gt; que ajuda a guardar os livros que você já leu e pretende ler. Você também pode atualizar o seu progresso a medida que está lendo um ou mais livros. Todos nós temos um perfil, e a vantagem é que assim podemos ver o que os outros estão lendo e encontrar livros interessantes.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 31 May 2015 00:00:00 -0400</pubDate><guid>tag:castalio.info,2015-05-31:episodio-66-thiago-perrotta-leitura-e-tecnologia.html</guid><category>thiago perrotta</category><category>leitura</category><category>tecnologia</category><category>goodreads</category><category>thinking</category><category>fast and slow</category><category>ready player one</category><category>harry potter</category><category>o guia do mochileiro das galáxias</category><category>percy jackson</category><category>coldplay</category><category>maroon 5</category><category>foo fighters</category><category>linkin park</category><category>bullet for my valentine</category><category>eminem</category><category>taylor swift</category><category>harry potter</category><category>star wars</category><category>x-men</category><category>lord of the rings</category><category>the inglorious basterds</category><category>fight club</category><category>à procura da felicidade</category><category>basement coders</category><category>everyday linux</category><category>hack'n'cast</category><category>castálio podcast</category><category>papo acessível</category><category>dan brown</category><category>the da vince code</category><category>emacs</category><category>haskell</category><category>jono bacon</category><category>kindle</category><category>ocamel</category><category>ogre 3d</category><category>openbsd</category><category>org mode</category><category>scala</category><category>the art of community</category><category>vim</category></item><item><title>Episódio 65: Gustavo Sverzut Barbieri - ProFUSION e Enlightenment</title><link>http://castalio.info/episodio-65-gustavo-sverzut-barbieri-profusion-e-enlightenment.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Gustavo Sverzut Barbieri - ProFUSION e Enlightenment" src="http://castalio.info/images/gustavobarbieri.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Primeiramente gostaríamos de agradecer a recomendação do Ricardo Wellington de Fortaleza (CE) que recomendou conversarmos com o Gustavo Barbieri. O nosso entrevistado de hoje participa ativamente do desenvolvimento do &lt;a class="reference external" href="http://www.enlightenment.org/"&gt;Enlightenment&lt;/a&gt;, é um dos principais desenvolvedores do binding da &lt;a class="reference external" href="http://www.enlightenment.org/p.php?p=about/efl"&gt;EFL&lt;/a&gt; (Enlightenment Foundation Libraries) para Python. E, também, foi sócio da &lt;a class="reference external" href="http://profusion.mobi/"&gt;ProFUSION&lt;/a&gt;, uma empresa de desenvolvimento para dispositivos móveis que foi comprada pela Intel em 2012.&lt;/p&gt;
+&lt;p&gt;Durante nossa conversa o Gustavo nos contou como iniciou o seu envolvimento com o projeto Enlightenment e com a EFL. Foi devido ao seu envolvimento com a EFL que surgiram os &lt;a class="reference external" href="https://pypi.python.org/pypi/python-efl"&gt;bindings para Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ele nos contou como a ProFUSION foi criada e como ele conseguiu trabalhar em projetos bastante interessantes. Apesar de ter apanhado um pouco no início com relação a contratos, a ProFUSION atuou em parceria com empresas maiores obtendo sucesso nos projetos desenvolvidos. Fiquem atentos pois ele deu algumas dicas de como conseguir o espaço necessário para se destacar e conseguir boas oportunidades.&lt;/p&gt;
+&lt;p&gt;Conversamos também sobre o início da TV Digital no Brasil e porque ele optou por utilizar o Enlightenment em um projeto de interface gráfica para um &lt;a class="reference external" href="https://pt.wikipedia.org/wiki/Set-top_box"&gt;Set-top box&lt;/a&gt;. Além disso ele esclarece as diferenças entre as tecnologias utilizadas em um projeto deste tipo de aparelho.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 15 Mar 2015 00:00:00 -0400</pubDate><guid>tag:castalio.info,2015-03-15:episodio-65-gustavo-sverzut-barbieri-profusion-e-enlightenment.html</guid><category>gustavo barbieri</category><category>profusion</category><category>enlightenment</category></item><item><title>Episódio 64: Thiago Avelino - OpenMining e SambaPorno</title><link>http://castalio.info/episodio-64-thiago-avelino-openmining-e-sambaporno.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Thiago Avelino - vim-bootstrap" src="http://castalio.info/images/thiagoavelino.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Neste episódio concluímos nossa entrevista com o Thiago Avelino, desta vez conversando sobre seu projeto &lt;a class="reference external" href="http://openmining.io"&gt;OpenMining&lt;/a&gt;, que é um software de &lt;a class="reference external" href="http://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial"&gt;Business Intelligence&lt;/a&gt; (Inteligência empresarial) para a criação de cubos &lt;a class="reference external" href="https://gist.github.com/elyezer/pt.wikipedia.org/wiki/OLAP"&gt;OLAP&lt;/a&gt; multi-dimensionáis, usando &lt;a class="reference external" href="http://www.numpy.org/"&gt;Numpy&lt;/a&gt;, &lt;a class="reference external" href="http://www.scipy.org/"&gt;Scipy&lt;/a&gt;, &lt;a class="reference external" href="http://pandas.pydata.org/"&gt;Pandas&lt;/a&gt; entre outros.&lt;/p&gt;
+&lt;p&gt;Conversamos sobre como ele aprendeu a melhorar a performance do &lt;a class="reference external" href="http://www.sambaporno.com"&gt;SambaPorno&lt;/a&gt; (&lt;strong&gt;ATENÇÃO&lt;/strong&gt;: Conteúdo Pornográfico &lt;strong&gt;EXPLÍCITO&lt;/strong&gt;) que hoje é um site gerando &lt;strong&gt;55 milhões de visitas diárias&lt;/strong&gt; e trazendo uma boa renda!&lt;/p&gt;
+&lt;p&gt;Também falamos sobre sua experiência vendendo uma &amp;quot;startup&amp;quot; em &lt;strong&gt;New Jersey&lt;/strong&gt;, um livro que está escrevendo sobre &lt;a class="reference external" href="http://bottlepy.org/docs/dev/index.html"&gt;Bottle&lt;/a&gt; e finalmente sobre o seu &lt;strong&gt;Top 5&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Como sempre, agradecemos todos os comentários que recebemos pois sua participação é muito importante para o crescimento do podcast, e não esqueça de deixar seu comentário pelo &lt;a class="reference external" href="https://itunes.apple.com/br/podcast/castalio-podcast/id446259197"&gt;iTunes&lt;/a&gt; para nos ajudar a destacar o podcast.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 01 Mar 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-03-01:episodio-64-thiago-avelino-openmining-e-sambaporno.html</guid><category>thiago avelino</category><category>openmining</category><category>sambaporno</category></item><item><title>Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</title><link>http://castalio.info/episodio-63-thiago-avelino-vim-bootstrap-e-beerblogging.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Thiago Avelino - vim-bootstrap" src="http://castalio.info/images/thiagoavelino.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Primeiramente gostaríamos de agradecer a todos que curtiram a &lt;a class="reference external" href="https://www.facebook.com/castaliopod"&gt;Página do Castálio no Facebook&lt;/a&gt;. Se você ainda não curte, corre lá e curta agora mesmo.&lt;/p&gt;
+&lt;p&gt;O entrevistado de hoje é o &lt;strong&gt;Thiago Avelino&lt;/strong&gt;, criador do &lt;a class="reference external" href="http://vim-bootstrap.com/"&gt;vim-bootstrap&lt;/a&gt;, um projeto que já tinha sido mencionado antes no &lt;a class="reference external" href="http://castalio.info/episodio-55-editor-vim.html"&gt;Episódio 55&lt;/a&gt; sobre o editor Vim, que te ajuda a gerar um arquivo de configurações que inclui um monte de recursos e firulas. Tudo isso é feito de forma bem simples, e tudo que você precisa fazer é navegar até o site, clicar em algumas opções, e pronto! Depois é só salvar o arquivo gerado no seu sistema e iniciar o Vim para ativar o processo de configuração automática.&lt;/p&gt;
+&lt;p&gt;Neste episódio conversamos sobre como o projeto começou, quais tecnologias são utilizadas no projeto e como ele funciona internamente. Também veremos alguns plugins que o &lt;a class="reference external" href="http://vim-bootstrap.com/"&gt;vim-bootstrap&lt;/a&gt; instala para você automaticamente.&lt;/p&gt;
+&lt;p&gt;O &lt;a class="reference external" href="http://vim-bootstrap.com/"&gt;vim-bootstrap&lt;/a&gt; utiliza o &lt;a class="reference external" href="https://github.com/Shougo/neobundle.vim"&gt;NeoBundle&lt;/a&gt; para gerenciar os plugins que ele instala, por isso, aproveitamos o assunto e conversamos um pouco mais sobre os seus benefícios. Além de falarmos sobre o editor vim e alguns usos diferentes de editar códigos fontes de programas e também o editor &lt;a class="reference external" href="http://neovim.org/"&gt;NeoVim&lt;/a&gt; que é um fork do vim com melhorias como a utilização I/O assíncrona.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 15 Feb 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-02-15:episodio-63-thiago-avelino-vim-bootstrap-e-beerblogging.html</guid><category>thiago avelino</category><category>vim-bootstrap</category><category>beerblogging</category></item><item><title>Episódio 62: Diego Rodrigo Santos - SobreCervejas</title><link>http://castalio.info/episodio-62-diego-rodrigo-santos-sobrecervejas.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Diego Rodrigo Santos - SobreCervejas" src="http://castalio.info/images/diegorodrigosantos.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;O assunto do episódio de hoje é um pouco diferente dos episódios antigos, mas na minha opinião não deixa de ser super interessante: Cervejas!!!&lt;/p&gt;
+&lt;p&gt;Eu descobri o &lt;a class="reference external" href="http://instagram.com/sobrecervejas/"&gt;SobreCervejas&lt;/a&gt; meio que por acaso um dia, quando eu olhava posts aleatórios no &lt;a class="reference external" href="http://instagram.com/"&gt;Instagram&lt;/a&gt;. No meio de um monte de selfies e fotos meio que sem muito sentido, eis que me deparei com uma foto de uma cerveja com uma aparência bem atraente :) Cliquei na foto e fui surpreendido por uma resenha super profissional que apresentava o perfil completo da cerveja. Fiquei curioso a fui olhar as outras fotos que mostraram o mesmo resultado: fotos muito bem tiradas com resenhas super informativas!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-02-01:episodio-62-diego-rodrigo-santos-sobrecervejas.html</guid><category>diego rodrigo santos</category><category>sobrecervejas</category><category>instagram</category><category>guinness</category><category>old
+speckled hen</category><category>eisenbahn dunkel</category><category>high</category><category>lighthouse family</category><category>a
+message</category><category>coldplay</category><category>imagine</category><category>john lennon</category><category>elvis presley</category><category>cake</category><category>the strokes</category><category>skank</category><category>american beauty</category><category>coração valente</category><category>the
+matrix</category><category>the animatrix</category><category>family guy</category><category>the simpsons</category><category>cqc</category><category>steve
+jobs</category></item><item><title>Episódio 61: Humberto Augusto Piovesana Zanetti - Smart Braille</title><link>http://castalio.info/episodio-61-humberto-augusto-piovesana-zanetti-smart-braille.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Humberto Zanetti - Smart Braille" src="http://castalio.info/images/humbertozanetti.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Primeiramente, eu gostaria de agradecer a todos que passaram por aqui e
+deixaram seus comentários, e quem também deu um feedback pelo Twitter.&lt;/p&gt;
+&lt;p&gt;Gostaria também agradecer o &lt;a class="reference external" href="http://www.quartoestudio.com/"&gt;Evandro Pastor&lt;/a&gt; pelo novo logotipo e página de erro, e
+o &lt;a class="reference external" href="https://www.google.com/+MagnunLeno"&gt;Magnun Leno&lt;/a&gt; do &lt;a class="reference external" href="http://mindbending.org/pt/category/hack-n-cast"&gt;Hack'n'Cast&lt;/a&gt; por todos os
+patches que foram enviados para melhorar o layout e visual do site.&lt;/p&gt;
+&lt;p&gt;Também temos uma página no &lt;a class="reference external" href="https://www.facebook.com/castaliopod"&gt;Facebook&lt;/a&gt; e caso você queira passar por lá
+e deixar um recado, fiquem a vontade ;)&lt;/p&gt;
+&lt;p&gt;Finalmente, eu gostaria de lembrar a todos que nos acompanham pelo
+&lt;a class="reference external" href="https://itunes.apple.com/us/podcast/castalio-podcast/id446259197"&gt;iTunes&lt;/a&gt; para deixar um feedback por lá para nos ajudar a destacar o
+podcast.&lt;/p&gt;
+&lt;p&gt;O entrevistado de hoje é o Humberto Zanetti, professor e coordenador
+da ETEC de Itatiba e professor na Fatec de Jundiaí.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 18 Jan 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-01-18:episodio-61-humberto-augusto-piovesana-zanetti-smart-braille.html</guid><category>humberto augusto piovesana zanetti</category><category>smart braille</category></item><item><title>Episódio 60: Andrews Medina - Splinter</title><link>http://castalio.info/episodio-60-andrews-medina-splinter.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Andrews Medina - Splinter" src="http://castalio.info/images/andrewsmedina.jpeg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;, o primeiro de 2015!!!&lt;/p&gt;
+&lt;p&gt;No &lt;a class="reference external" href="http://castalio.info/episodio-56-splinter.html"&gt;Episódio 56&lt;/a&gt; nós conversamos sobre o projeto &lt;a class="reference external" href="https://github.com/cobrateam/splinter"&gt;Splinter&lt;/a&gt; e como usá-lo para a automatização de testes para interfaces gráficas web. Desta vez conseguimos trazer o &lt;strong&gt;Andrews Medina&lt;/strong&gt; da &lt;strong&gt;Globo.com&lt;/strong&gt;, um dos primeiros desenvolvedores do Splinter, para nos contar um pouco sobre a história do projeto.&lt;/p&gt;
+&lt;p&gt;Apesar de hoje passar mais tempo focando em seu novo projeto, &lt;a class="reference external" href="https://github.com/tsuru/tsuru"&gt;Tsuru&lt;/a&gt;, o Andrews ainda acompanha e ajuda a manter o Splinter e ultimamente está responsável por arrumar uns probleminhas que estão causando os testes do próprio projeto falharem pelo &lt;a class="reference external" href="http://travis-ci.org/cobrateam/splinter"&gt;Travis&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 04 Jan 2015 00:00:00 -0500</pubDate><guid>tag:castalio.info,2015-01-04:episodio-60-andrews-medina-splinter.html</guid><category>andrews medina</category><category>splinter</category><category>tsuru</category><category>travis</category><category>cobra team</category><category>spotify</category><category>globo.com</category><category>selenium</category><category>pyccuracy</category><category>django</category><category>flask</category><category>capybara</category><category>tornado web server</category><category>angularjs</category><category>yipit</category><category>jquery</category></item><item><title>Episódio 59: Episódio de Natal - Parte 3</title><link>http://castalio.info/episodio-59-episodio-de-natal-parte-3.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Episódio de Natal - Parte 3" src="http://castalio.info/images/cheers.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Na semana passada, junto com o &lt;a class="reference external" href="https://twitter.com/rafaelrosafu"&gt;Rafael Rosa Fu&lt;/a&gt; do &lt;a class="reference external" href="http://grokpodcast.com"&gt;Grok Podcast&lt;/a&gt; e
+&lt;a class="reference external" href="https://twitter.com/mind_bend"&gt;Magnun Leno&lt;/a&gt; do &lt;a class="reference external" href="http://mindbending.org/pt/category/hack-n-cast"&gt;Hack 'n' Cast&lt;/a&gt; , nós fizemos o que pode ter sido o
+primeiro episódio open source do Brasil? A idéia foi a seguinte:
+existem varias pessoas que fazem podcasts ou gostariam de fazer um mas
+não sabem como começar ou quais ferramentas usar ou talvez onde/como
+publicar os arquivos de áudio. Então decidimos fazer um episódio para
+falar sobre estes temas, e depois o áudio (sem edição) foi publicado
+dentre os participantes para que cada um possa então editar e publicar
+o conteúdo da forma e quando quiser. Viva open source!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Mon, 22 Dec 2014 00:00:00 -0500</pubDate><guid>tag:castalio.info,2014-12-22:episodio-59-episodio-de-natal-parte-3.html</guid><category>grokpodcast</category><category>hack 'n' cast</category><category>natal</category><category>podcast</category><category>jekyll</category><category>pelican</category><category>dreamhost</category><category>wordpress</category></item><item><title>Episódio 58: Episódio de Natal - Parte 2</title><link>http://castalio.info/episodio-58-episodio-de-natal-parte-2.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Episódio de Natal - Parte 2" src="http://castalio.info/images/audacity.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Na semana passada, junto com o &lt;a class="reference external" href="https://twitter.com/rafaelrosafu"&gt;Rafael Rosa Fu&lt;/a&gt; do &lt;a class="reference external" href="http://grokpodcast.com"&gt;Grok Podcast&lt;/a&gt; e
+&lt;a class="reference external" href="https://twitter.com/mind_bend"&gt;Magnun Leno&lt;/a&gt; do &lt;a class="reference external" href="http://mindbending.org/pt/category/hack-n-cast"&gt;Hack 'n' Cast&lt;/a&gt; , nós fizemos o que pode ter sido o
+primeiro episódio open source do Brasil? A idéia foi a seguinte:
+existem varias pessoas que fazem podcasts ou gostariam de fazer um mas
+não sabem como começar ou quais ferramentas usar ou talvez onde/como
+publicar os arquivos de áudio. Então decidimos fazer um episódio para
+falar sobre estes temas, e depois o áudio (sem edição) foi publicado
+dentre os participantes para que cada um possa então editar e publicar
+o conteúdo da forma e quando quiser. Viva open source!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 21 Dec 2014 00:00:00 -0500</pubDate><guid>tag:castalio.info,2014-12-21:episodio-58-episodio-de-natal-parte-2.html</guid><category>grokpodcast</category><category>hack 'n' cast</category><category>natal</category><category>podcast</category><category>audacity</category></item><item><title>Episódio 57: Episódio de Natal - Parte 1</title><link>http://castalio.info/episodio-57-episodio-de-natal-parte-1.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Episódio de Natal - Parte 1" src="http://castalio.info/images/natal.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Olá pessoal e sejam bem-vindos à mais um episódio do &lt;strong&gt;Castálio Podcast&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Desta vez nós temos um episódio super especial que é o nosso presente
+de natal para todos vocês que tem nos acompanhado e apoiado desde o
+começo!&lt;/p&gt;
+&lt;p&gt;Na semana passada, junto com o &lt;a class="reference external" href="https://twitter.com/rafaelrosafu"&gt;Rafael Rosa Fu&lt;/a&gt; do &lt;a class="reference external" href="http://grokpodcast.com"&gt;Grok Podcast&lt;/a&gt; e
+&lt;a class="reference external" href="https://twitter.com/mind_bend"&gt;Magnun Leno&lt;/a&gt; do &lt;a class="reference external" href="http://mindbending.org/pt/category/hack-n-cast"&gt;Hack 'n' Cast&lt;/a&gt; , nós fizemos o que pode ter sido o
+primeiro episódio open source do Brasil? A idéia foi a seguinte:
+existem varias pessoas que fazem podcasts ou gostariam de fazer um mas
+não sabem como começar ou quais ferramentas usar ou talvez onde/como
+publicar os arquivos de áudio. Então decidimos fazer um episódio para
+falar sobre estes temas, e depois o áudio (sem edição) foi publicado
+dentre os participantes para que cada um possa então editar e publicar
+o conteúdo da forma e quando quiser. Viva open source!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sat, 20 Dec 2014 00:00:00 -0500</pubDate><guid>tag:castalio.info,2014-12-20:episodio-57-episodio-de-natal-parte-1.html</guid><category>grokpodcast</category><category>hack 'n' cast</category><category>natal</category><category>podcast</category></item><item><title>Episódio 56: Splinter</title><link>http://castalio.info/episodio-56-splinter.html</link><description>&lt;p&gt;No episódio de hoje, eu e o Elyézer conversamos um pouco sobre o
+&lt;strong&gt;Splinter&lt;/strong&gt;, uma ferramente muito interessante para quem trabalha com a
+&lt;strong&gt;automatização&lt;/strong&gt; de aplicativos web com &lt;strong&gt;python&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na Red Hat, eu e Elyézer trabalhamos na automatização de testes
+funcionais do produto &lt;strong&gt;Satellite 6&lt;/strong&gt;, certificando que todos recursos
+expostos pelas camadas de API, CLI (linha de comando) e UI (interface
+web gráfica) funcionam conforme as expectativas do design. Uma opção
+para efetuar estes testes seria fazer um mutirão no trabalho e testar
+tudo manualmente... mas isso é coisa de iniciante, e todo engenheiro de
+automatização que se preze eventualmente tenta automatizar tudo.&lt;/p&gt;
+&lt;p&gt;Apesar de usarmos o &lt;strong&gt;Selenium&lt;/strong&gt; para efetuar testes de interface
+gráfica, o &lt;strong&gt;Splinter&lt;/strong&gt; é uma excelente alternativa para quem deseja
+experimentar uma forma bem simples e fácil de interagir com um navegador
+web (o tal do 'browser'), e é justamente por causa desta facilidade que
+o episódio de hoje é dedicado ao &lt;strong&gt;Splinter&lt;/strong&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 07 Dec 2014 00:00:00 -0500</pubDate><guid>tag:castalio.info,2014-12-07:episodio-56-splinter.html</guid><category>splinter</category><category>selenium</category><category>automatização</category><category>splinter</category><category>selenium</category><category>python</category></item><item><title>Episódio 55: Editor Vim</title><link>http://castalio.info/episodio-55-editor-vim.html</link><description>&lt;div class="pull-left clear article-figure figure"&gt;
+&lt;img alt="Editor Vim" src="http://castalio.info/images/episodio-55-vim.png" /&gt;
+&lt;p class="caption"&gt;Editor Vim&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Depois de um longo e tenebroso inverno, estamos de volta ao&amp;nbsp;ar, desta
+vez para ficar e com algumas novidades.Mas primeiramente, uma explicação
+sobre o sumiço súbito.&lt;/p&gt;
+&lt;p&gt;O processo de planejamento, gravação e edição de um podcast requer
+muitas horas e perseverança para poder correr atrás de assuntos (ou no
+caso deste podcast, entrevistados), pesquisar para ter um bom
+&amp;quot;background&amp;quot;, e horas e horas editando arquivos de áudio para poder
+fornecer algo de (espero) boa qualidade para vocês que nos honram com
+sua presença e apoio. Devido a algumas mudanças no trabalho (algumas
+promoções com mais responsabilidades e longas horas) e na vida pessoal
+(o nascimento de minha terceira filha, Iza), eu senti que não teria mais
+o tempo livre necessário&amp;nbsp;para continuar o podcast sem que o mesmo não
+perdesse a qualidade das entrevistas ou áudio. Foi muito difícil
+simplesmente abandonar o projeto às moscas, sem sequer dar alguma
+explicação a vocês que sempre acompanhou o podcast... por isso, quero
+então pedir 1,000 desculpas e que perdoem esta minha falta de
+profissionalismo.&lt;/p&gt;
+&lt;p&gt;Durante os muitos meses que o podcast ficou parado, foram muitos os
+e-mails e comentários de amigos e ouvintes perguntando se o projeto
+estava realmente morto ou se existia alguma chance de trazê-lo de volta
+ao&amp;nbsp;ar, e eu sempre respondi que estava sem tempo livre, nem mesmo para
+editar o áudio, então a resposta era não.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Og Maciel</dc:creator><pubDate>Sun, 23 Nov 2014 18:44:00 -0500</pubDate><guid>tag:castalio.info,2014-11-23:episodio-55-editor-vim.html</guid><category>github</category><category>vim</category></item></channel></rss>
